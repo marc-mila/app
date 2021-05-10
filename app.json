@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "TFG",
+    "slug": "TFG",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/drawer-icon.png",
+    "splash": {
+      "image": "./assets/drawer-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/drawer-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "craax.tfg"
+    },
+    "web": {
+      "favicon": "./assets/drawer-icon.png"
+    }
+  }
+}
